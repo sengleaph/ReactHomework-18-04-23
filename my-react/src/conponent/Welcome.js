@@ -4,7 +4,7 @@ export function Welcome(props) {
     <h1>Welcome To {props.title}</h1>
   )
 }
-export avatar = ({imageURL, size}) => {
+export const Avatar = ({imageURL, size}) => {
     return(
         <img
         src = {imageURL}
